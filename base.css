@@ -1,0 +1,149 @@
+@charset "utf-8"; 
+
+/* Base Styles */ 
+
+* { color: white; 
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif; 
+
+} 
+
+header a, ul, header ul li, #Logo { 
+    height: 100%; 
+} 
+
+html, body {
+    min-height: 100vh;
+    height: auto;
+}
+
+html { 
+    overflow-y: auto;
+} 
+
+ul, ol { list-style: none; 
+} 
+
+a { text-decoration: none; 
+} 
+
+/* Clump Styles */ 
+
+header nav, body, html, header a, ul, main, #Contact, footer { 
+    width: 100%; 
+} 
+
+body { 
+    flex-direction: column;
+    background: linear-gradient(135deg, #070606, #272727, #1a1a1a) fixed;
+    background-size: cover;
+} 
+
+header ul, header { 
+    flex-direction: row; 
+} 
+
+main, #Contact, footer { 
+    padding: 25px; 
+    background-color: rgba(102, 178, 255, 0.01); 
+} 
+
+body, header, ul, header nav, main { 
+    display: flex; 
+} 
+
+header ul li, #Logo, main, #Contact, footer { 
+    text-align: center; 
+} 
+
+header ul li, #Logo { 
+    flex: 0 0 calc(100% / 8); 
+    font-size: 1.25vw; 
+    align-content: center; 
+} 
+
+/* Html Styles */
+/* Body Styles */ 
+
+body { 
+    justify-content: flex-start;
+} 
+
+/* Header Styles */ 
+
+header { 
+    position: sticky; 
+    justify-content: space-between; 
+    background-color: rgb(54, 54, 54);
+    min-height: 120px; 
+    height: auto;
+    max-height: 250px; 
+    padding: 10px; 
+} 
+
+header ul { 
+    justify-content: flex-end; 
+    gap: 20px; 
+} 
+
+header ul li { 
+    border-radius: 15px; 
+} 
+
+#Logo { 
+    justify-self: flex-start; 
+    margin-left: 25px; 
+} 
+
+/* Body Block Styles */ 
+
+main { 
+    padding-top: 35px; 
+    flex: 1 1 85%; 
+    font-size: 1.5rem; 
+    flex-direction: column;
+    justify-content: flex-start;
+} 
+
+#Explain {
+    flex: 1 0 15%;
+    font-size: 2.5vh; 
+}
+
+#Shop {
+    flex: 1 0 85%;
+    font-size: 2vh; 
+}
+
+#Contact { 
+    flex: 1 1 15%;
+    justify-content: center;
+    align-content: center; 
+    font-size: 2vh;
+} 
+
+/* Class Styles */ 
+
+.hover:hover { 
+    border-bottom: 3px solid white; 
+    transition: all 0.15s ease; 
+} 
+
+nav ul li:hover { 
+    background-color: rgb(94, 94, 94); 
+    transition: all 0.3s ease; 
+    transform: scale(1.05); 
+} 
+/* Footer Styles */ 
+
+footer { 
+    flex: 1 0 1; 
+    margin-top: auto; 
+    min-height: 25px;
+    font-size: 2.75vh;
+    max-height: 150px; 
+    align-content: center;
+    background-color: rgb(54, 54, 54); 
+}

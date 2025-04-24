@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Revisioned Studios: Shop</title>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+ <meta name="Description" content="coding tutorials, game development, 
+ VR development, web development, indie game dev, learn programming,
+ game design, Unity, Unreal Engine, coding for gamers">
+ <link href="base.css" rel="stylesheet" />
+ <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+ 
+ <style>
+ /* Specific Styles */
+
+ #Shop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 35px;
+    background: linear-gradient(135deg, #070606, #272727, #1a1a1a); 
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ footer {
+    min-height: 120px;
+ }
+
+ header {
+    min-height: 120px;
+ }
+
+ .Boxes {
+    flex: 1 0 calc(100% / 3 - 35px);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+ }
+ 
+ </style>
+ </head>
+ <body>
+ <header>
+    <nav>
+        <strong id="Logo">Revisioned Studios</strong>
+        <ul>
+            <li><a href="home.html" class="hover">Home</a></li>
+            <li><a href="about.html" class="hover">About</a></li>
+            <li><a href="https://www.youtube.com/@RevisionedGames" target="blank" class="hover">YTube</a></li>
+        </ul>
+    </nav>
+ </header>
+ 
+ <main id="Main">
+    <div id="Explain">
+   <h3>Shop</h3><br>
+   <p>Here there will be items and other stuff that you can buy from us to support our business!</p>
+    <p>None of the items are available yet, but we are working on it and will show the prices for later construction.</p>
+</div><br>
+    <div id="Shop">
+        <div class="Boxes">
+            <h4>Beginner AI Pack</h4>
+            <p>Price: $5 (2500 RR Tokens)</p>
+            <h5>This pack includes:</h5>
+            <p>Basic AI movement, wall collision, and basic gravity.</p>
+        </div>
+        <div class="Boxes">
+            <h4>Novice AI Pack</h4>
+            <p>Price: $10 (5000 RR Tokens)</p>
+            <h5>This pack includes:</h5>
+            <p>Better AI movement, better wall collision, better gravity, and a wandering system.</p>
+        </div>
+        <div class="Boxes">
+            <h4>Intermediate AI Pack</h4>
+            <p>Price: $15 (7500 RR Tokens)</p>
+            <h5>This pack includes:</h5>
+            <p>Previous pack benefits of choice, a simple node baker, BTA maze generation, and a simple pathfinding system (ex. Pathfinder).</p>
+        </div>
+        <div class="Boxes">
+            <h4>Advanced AI Pack</h4>
+            <p>Price: $20 (12500 RR Tokens)</p>
+            <h5>This pack includes:</h5>
+            <p>Previous pack benefits of choice, and a dynamic pathfinding system.</p>
+        </div>
+        <div class="Boxes">
+            <h4>Expert AI Pack</h4>
+            <p>Price: $25 (16500 RR Tokens)</p>
+            <h5>This pack includes:</h5>
+            <p>Previous pack benefits of choice, Dijkstra's Algorithm (with connections), maze generation, a path follower, and better AI movement.</p>
+        </div>
+        <div class="Boxes">
+            <h4>Professional AI Pack</h4>
+            <p>Price: $30 (20000 RR Tokens)</p>
+            <h5>This pack includes:</h5>
+            <p>Previous pack benefits of choice, along with custom behaviours, GBFS Pathfinding Algorithm, and a realistic gravity system.</p>
+        </div>
+        <div class="Boxes">
+            <h4>All-Star AI Pack</h4>
+            <p>Price: $75 (50000 RR Tokens)</p>
+            <h5>This pack includes:</h5>
+            <p>Previous pack benefits of choice, A* Pathfinding, path smoothing, navmesh systems, node setters, node bakers, grid generation, and a maze generator of your choice (DFS OR HAK).</p>
+        </div>
+    </div>
+ </main>
+
+ <div id="Contact">
+    <h3>Contact</h3><br>
+    <p>Got any questions? Contact us at <a href="mailto:revisionedgames@gmail.com">revisionedgames@gmail.com</a></p>
+ </div>
+ 
+
+ <footer>
+    <p>2025 Revisioned Studios. All rights reserved.</p>
+ </footer>
+ 
+ </body>
+ </html>
